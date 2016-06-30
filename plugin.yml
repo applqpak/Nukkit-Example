@@ -1,0 +1,13 @@
+name: Nukkit-Example
+version: 1.0.0
+author: applqpak
+api: ["1.0.0"]
+main: applqpak.Nukkit-Example.Main
+commands:
+  example:
+    description: Nukkit-Example command!
+    usage: /example
+    permission: example.command
+permissions:
+  example.command:
+    default: op
